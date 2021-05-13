@@ -1,9 +1,9 @@
 # Leet Code
 릿코드 알고리즘 문제
 
-## 🖐 참여자
+## 🖐 Antandees
 
-| 참가자 이름 |   소속    |                  Github 프로필                  | 언어 |             푼문제              |
+| Name |   Organisation    |                  Github Profile                  | Language |             Solved Problem             |
 | :---------: | :-------: | :---------------------------------------------: |:-----: |:--------------------------------: |
 |   김리하    |     -     | [bravacoreana](https://github.com/bravacoreana) | JS| [:link:](bravacoreana/README.md)  |
 |   조성빈    | 시럽자  |    [chobobdev](https://github.com/chobobdev)    | Go | [:link:](chobobdev/README.md)    |
