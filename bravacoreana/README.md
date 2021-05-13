@@ -1,6 +1,6 @@
 # Leet Code
 
-> const Liha = (eager, algorithm) => developer
+> const Liha = (eager, algorithm) => developer 🙏🏼
 
 <div align="center">
 
