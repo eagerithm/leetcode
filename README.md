@@ -13,6 +13,6 @@
 |   정성훈 | |[JeongSeongHun](https://github.com/JeongSeongHun054) | JS |[:link:](JeongSeongHun/README.md)|
 <div align="center">
 
-<sub><sup>Written by <a href="https://github.com/hexdrinker">@bravacoreana</a></sup></sub><small>🍔</small>
+<sub><sup>Written by <a href="https://github.com/bravacoreana">@bravacoreana</a></sup></sub><small>🍔</small>
 
 </div>
