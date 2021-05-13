@@ -8,7 +8,7 @@
 |   김리하    |     -     | [bravacoreana](https://github.com/bravacoreana) | JS| [:link:](bravacoreana/README.md)  |
 |   조성빈    | 시럽자  |    [chobobdev](https://github.com/chobobdev)    | Go | [:link:](chobobdev/README.md)    |
 |   이우림    | 스타트업  |  [NoMoreBuild](https://github.com/NoMoreBuild)  | JS | [:link:](nomorebuild/README.md)   |
-|    핸리   |     -     |  [vanillaLatteJS](https://github.com/devgony)   | JS |[:link:](vanillaLatteJS/README.md) |
+|    헨리   |     -     |  [vanillaLatteJS](https://github.com/devgony)   | JS |[:link:](vanillaLatteJS/README.md) |
 |   김우리    | Diva Corp |   [woori3104](https://github.com/woori3104)   | Python | [:link:](woori3104/README.md)   |
 |   정성훈 | |[JeongSeongHun](https://github.com/JeongSeongHun054) | JS |[:link:](JeongSeongHun/README.md)|
 <div align="center">
