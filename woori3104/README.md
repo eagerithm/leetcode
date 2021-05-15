@@ -8,7 +8,7 @@
 <p>직군 @회사</p>
 
 ![Status](https://img.shields.io/badge/MunziYa-blue.svg)
-![Start Date](https://img.shields.io/badge/Start%20Date-2021--03--01-23d16b.svg)
+![Start Date](https://img.shields.io/badge/Start%20Date-2021--05--13-23d16b.svg)
 
 
 </div>
