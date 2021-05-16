@@ -24,9 +24,11 @@
 |  7   | 2021-05-14 | Reverse Integer| [:link:](code/007ReverseInteger.cs)) |
 |  9   | 2021-05-15 | #09 Palindrome Number| [:link:](code/009PalindromeNumber.cs)) |
 |  13   | 2021-05-16 | #13 Roman to Integer| [:link:](code/013RomantoInteger.cs)) |
+|  175   | 2021-05-16 | #175 Combine Two Tables| [:link:](Sql/175CombineTwoTables.sql)) |
+|  175   | 2021-05-16 | #176 Second Highest Salary [:link:](Sql/176SecondHighestSalary.sql)) |
 
 <div align="center">
 
-<sub><sup>Written by <a href="https://github.com/woori3105">@woori3104</a></sup></sub><small>🍕</small>
+<sub><sup>Written by <a href="https://github.com/woori3104">@woori3104</a></sup></sub><small>🍕</small>
 
 </div>
