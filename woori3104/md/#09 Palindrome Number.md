@@ -1,5 +1,6 @@
 # #09 Palindrome Number
 
+Category: Algorithms
 CreatedDate: May 14, 2021 7:59 PM
 Difficulty: Easy
 language: c#

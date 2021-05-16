@@ -21,8 +21,9 @@
 | # | 시도 날짜  | 문제 이름 |             링크             |
 | :--: | :--------: | :-------: | :--------------------------: |
 |  1   | 2021-05-14 | Two Sum| [:link:](code/001TwoSum.cs) |
-|  7   | 2021-05-14 | Reverse Integer| [:link:](code/#007ReverseInteger)) |
-|  9   | 2021-05-15 | #09 Palindrome Number| [:link:](code/#009PalindromeNumber)) |
+|  7   | 2021-05-14 | Reverse Integer| [:link:](code/007ReverseInteger.cs)) |
+|  9   | 2021-05-15 | #09 Palindrome Number| [:link:](code/009PalindromeNumber.cs)) |
+|  13   | 2021-05-16 | #13 Roman to Integer| [:link:](code/013RomantoInteger.cs)) |
 
 <div align="center">
 
