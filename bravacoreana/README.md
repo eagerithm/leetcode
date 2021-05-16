@@ -17,9 +17,10 @@
 
 ## 🔑 answer
 
-|  #  |    Date    | Title |             Link             |
-| :-: | :--------: | :---: | :--------------------------: |
-|  1  | 2021-03-01 | 라면  | [:link:](chapter1/README.md) |
+|  #  |    Date    |          Title          | Difficulty |        Link         |
+| :-: | :--------: | :---------------------: | :--------: | :-----------------: |
+|  1  | 2021-05-14 |     reverse string      |    easy    | [:link:](./334.js)  |
+|  2  | 2021-05-14 | running sum of 1d array |    easy    | [:link:](./1480.js) |
 
 <div align="center">
 
