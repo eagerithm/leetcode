@@ -1,5 +1,4 @@
-/**
- * Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.
+ï»¿/* Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.
 
     Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
 
@@ -24,9 +23,8 @@
     Constraints:
 
     -231 <= x <= 231 - 1
- * 
- **/
 
+*/
 
 
 public class Solution
@@ -34,16 +32,16 @@ public class Solution
     public int Reverse(int x)
     {
 
-        // ÀÔ·Â¹ŞÀº ¼ıÀÚÀÇ ÀÚ¸®¼ö¸¦ ±¸ÇÔ
+        // ì…ë ¥ë°›ì€ ìˆ«ìì˜ ìë¦¬ìˆ˜ë¥¼ êµ¬í•¨
         int digit = x.ToString().Length;
         if (x < 0)
             digit -= 1;
-        // ÀÓ½Ã º¯¼ö¿¡ ÀÔ·Â¹ŞÀº ¼ıÀÚ¸¦ ´ëÀÓ
+        // ì„ì‹œ ë³€ìˆ˜ì— ì…ë ¥ë°›ì€ ìˆ«ìë¥¼ ëŒ€ì„
         int temp = x;
-        // °á°ú ¹İÈ¯¿ë º¯¼ö ¼±¾ğ
+        // ê²°ê³¼ ë°˜í™˜ìš© ë³€ìˆ˜ ì„ ì–¸
         double result = 0;
         int j = 0;
-        // ÀÔ·Â¹ŞÀº ¼ıÀÚÀÇ ÀÚ¸®¼ö¹İÅ­ ·çÇÁ
+        // ì…ë ¥ë°›ì€ ìˆ«ìì˜ ìë¦¬ìˆ˜ë°˜í¼ ë£¨í”„
         for (int i = digit - 1; i > -1; i--)
         {
             int div = (int)Math.Pow(10, i);
@@ -60,3 +58,9 @@ public class Solution
         return (int)result;
     }
 }
+/*
+### Result
+
+Runtime: 40 ms, faster thanÂ 81.36%Â ofÂ C#Â online submissions forÂ Reverse Integer.
+
+Memory Usage:Â 15.7 MB, less thanÂ 25.71%Â ofÂ C#Â online submissions forÂ Reverse Integer.*/
