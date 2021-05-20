@@ -52,15 +52,29 @@ const nums3 = [3, 1, 2, 10, 1];
 Runtime: 76 ms, faster than 88.53% of JavaScript online submissions for Running Sum of 1d Array.
 Memory Usage: 38.7 MB, less than 84.38% of JavaScript online submissions for Running Sum of 1d Array.
 */
-var runningSum = function (nums) {
-  let total = 0;
-  let newArray = [];
-  for (let i = 0; i < nums.length; i++) {
-    total += nums[i];
-    newArray.push(total);
-  }
+// var runningSum = function (nums) {
+//   let total = 0;
+//   let newArray = [];
+//   for (let i = 0; i < nums.length; i++) {
+//     total += nums[i];
+//     newArray.push(total);
+//   }
 
-  return newArray;
+//   return newArray;
+// };
+
+// - way 3
+
+/*
+Runtime: 80 ms, faster than 69.63% of JavaScript online submissions for Running Sum of 1d Array.
+Memory Usage: 39 MB, less than 47.69% of JavaScript online submissions for Running Sum of 1d Array.
+*/
+
+var runningSum = function (nums) {
+  for (let i = 0; i < nums.length; i++) {
+    i === 0 ? (nums[i] = nums[i]) : (nums[i] = nums[i - 1] + nums[i]);
+    console.log(nums);
+  }
 };
 
 runningSum(nums1);
