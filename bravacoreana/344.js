@@ -32,9 +32,30 @@ You must do this by modifying the input array in-place with O(1) extra memory.
 const s1 = ["h", "e", "l", "l", "o"];
 const s2 = ["H", "a", "n", "n", "a", "h"];
 
-var reverseString = function (s) {
-  return s.reverse();
-};
+// * 1
+// var reverseString = function (s) {
+//   return s.reverse();
+// };
 
-console.log(reverseString(s1)); //[ 'o', 'l', 'l', 'e', 'h' ]
-console.log(reverseString(s2)); //[ 'h', 'a', 'n', 'n', 'a', 'H' ]
+// * 2: different answer between leetcode and vscode, why!?
+// var reverseString = function (s) {
+//   let arr = Object.assign([], s);
+//   for (let i = 0; i < arr.length; i++) {
+//     arr[i] = s[s.length - i - 1];
+//   }
+//   return arr;
+// };
+
+// * 3
+function reverseString(s) {
+  for (let l = 0, r = s.length - 1; l < r; l++, r--) {
+    let tmp = s[l];
+    s[l] = s[r];
+    s[r] = tmp;
+  }
+}
+// console.log(reverseString(s1)); //[ 'o', 'l', 'l', 'e', 'h' ]
+// console.log(reverseString(s2)); //[ 'h', 'a', 'n', 'n', 'a', 'H' ]
+
+console.log(reverseString(s1));
+console.log(reverseString(s2));
