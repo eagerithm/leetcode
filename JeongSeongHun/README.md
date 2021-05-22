@@ -20,7 +20,8 @@
 
 | # | 시도 날짜  | 문제 이름 |             링크             |
 | :--: | :--------: | :-------: | :--------------------------: |
-|  1   | 2021-03-01 | 라면| [:link:](chapter1/README.md) |
+|  1   | 2021-05-14 | Two Sum | [https://leetcode.com/problems/two-sum/](chapter1/README.md) |
+|  2   | 2021-05-18 | Reverse Integer | [https://leetcode.com/problems/reverse-integer/](chapter1/README.md) |
 
 <div align="center">
 
