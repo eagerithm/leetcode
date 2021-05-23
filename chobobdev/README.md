@@ -21,6 +21,7 @@ Go lang을 활용해 많은 알고리즘 해결
 | # | 시도 날짜  | 문제 이름 |             링크             |
 | :--: | :--------: | :-------: | :--------------------------: |
 |  1   | 2021-05-20 | 27. Remove Element| [:link:](27/solution.go) |
+| 2 | 2021-04-23 | 58 . Length of the last word | [:link:](58/solution.go)|
 
 <div align="center">
 
