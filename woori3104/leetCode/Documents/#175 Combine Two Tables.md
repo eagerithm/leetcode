@@ -1,16 +1,16 @@
+# #175 Combine Two Tables
 
-/*
-SQL Schema
+Category: DataBase
+CreatedDate: May 16, 2021 12:39 PM
+Difficulty: Easy
+language: oracle
+url: https://leetcode.com/problems/combine-two-tables/
 
-Create table Person (PersonId int, FirstName varchar(255), LastName varchar(255))
-Create table Address (AddressId int, PersonId int, City varchar(255), State varchar(255))
-Truncate table Person
-insert into Person (PersonId, LastName, FirstName) values ('1', 'Wang', 'Allen')
-Truncate table Address
-insert into Address (AddressId, PersonId, City, State) values ('1', '2', 'New York City', 'New York')
+## #175. Combine Two Tables
 
-Table: Person
+Table: `Person`
 
+```
 +-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
@@ -19,8 +19,12 @@ Table: Person
 | LastName    | varchar |
 +-------------+---------+
 PersonId is the primary key column for this table.
-Table: Address
 
+```
+
+Table: `Address`
+
+```
 +-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
@@ -30,16 +34,27 @@ Table: Address
 | State       | varchar |
 +-------------+---------+
 AddressId is the primary key column for this table.
- 
+
+```
 
 Write a SQL query for a report that provides the following information for each person in the Person table, regardless if there is an address for each of those people:
 
+```
 FirstName, LastName, City, State
-*/
+```
 
+### Answer
 
+```sql
 /* Write your PL/SQL query statement below */
 
 select FirstName, LastName, City, State 
 from Person P  LEFT OUTER JOIN Address A
-on P.PersonId  = A.PersonId ; 
+on P.PersonId  = A.PersonId ;
+```
+
+### Submissions
+
+Runtime: 550 ms, faster than 90.09% of Oracle online submissions for Combine Two Tables.
+
+Memory Usage: 0B, less than 100.00% of Oracle online submissions for Combine Two Tables.

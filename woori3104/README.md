@@ -22,18 +22,13 @@
 
 | # | 시도 날짜  | 문제 이름 |             링크             |
 | :--: | :--------: | :-------: | :--------------------------: |
-|  001   | 2021-05-14 | #001 Two Sum| [:link:](code/001TwoSum.cs) |
-|  007   | 2021-05-14 | #007 Reverse Integer| [:link:](code/007ReverseInteger.cs)) |
-|  009   | 2021-05-15 | #009 Palindrome Number| [:link:](code/009PalindromeNumber.cs)) |
-|  013   | 2021-05-16 | #013 Roman to Integer| [:link:](code/013RomantoInteger.cs)) |
-|  014   | 2021-05-17 | #014 LongestCommonPrefix| [:link:](code/014LongestCommonPrefix.cs)) |
-|  020   | 2021-05-17 | #020 Valid Parentheses| [:link:](code/020ValidParentheses.cs)) |
-|  175   | 2021-05-16 | #175 Combine Two Tables| [:link:](Sql/175CombineTwoTables.sql)) |
-|  175   | 2021-05-16 | #176 Second Highest Salary [:link:](Sql/176SecondHighestSalary.sql)) |
-|  178   | 2021-05-16 | #178 Rank Scores [:link:](Sql/178RankScores.sql)) |
-|  181   | 2021-05-17 | #181 Employees Earning More Than Their Managers [:link:](Sql/181EmployeesEarningMore.sql)) |
-|  182   | 2021-05-17 | #182 Duplicate Emails [:link:](Sql/182DuplicateEmails.sql)) |
-|  344   | 2021-05-17 | #344 344 Reverse String [:link:](code/344ReverseString.cs)) |
+|  001   | 2021-05-14 | #001 Two Sum| [:link:](leetCode/leetCode/Easy/001TwoSum.cs) |
+|  007   | 2021-05-14 | #007 Reverse Integer| [:link:](leetCode/leetCode/Easy/007ReverseInteger.cs)) |
+|  009   | 2021-05-15 | #009 Palindrome Number| [:link:](leetCode/leetCode/Easy/009PalindromeNumber.cs)) |
+|  013   | 2021-05-16 | #013 Roman to Integer| [:link:](leetCode/leetCode/Easy/013RomantoInteger.cs)) |
+|  014   | 2021-05-17 | #014 LongestCommonPrefix| [:link:](leetCode/leetCode/Easy/014LongestCommonPrefix.cs)) |
+|  020   | 2021-05-17 | #020 Valid Parentheses| [:link:](cleetCode/leetCode/Easy/020ValidParentheses.cs)) |
+|  344   | 2021-05-17 | #344 344 Reverse String [:link:](leetCode/leetCode/Easy/344ReverseString.cs)) |
 
 <div align="center">
 
