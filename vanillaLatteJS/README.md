@@ -16,6 +16,13 @@
 
 ## 코드 목록
 
+```
+1.Two-Sum-1.js
+1.Two-Sum-2.js
+7.Reverse-Integer.js
+9.Palindrome-Number.js
+```
+
 |  #  | 시도 날짜  | 문제 이름 |             링크             |
 | :-: | :--------: | :-------: | :--------------------------: |
 |  1  | 2021-03-01 |   라면    | [:link:](chapter1/README.md) |
