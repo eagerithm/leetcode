@@ -7,7 +7,7 @@ faster than: 99.58%
  */
 
 var reverse = function (x) {
-  let isNegative = x < 0;
+  const isNegative = x < 0;
   const absoluteNum = Math.abs(x);
   const reversedAbs = [...(absoluteNum + "")].reverse().join("");
   if (
