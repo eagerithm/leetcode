@@ -1,14 +1,16 @@
 # Leet Code
 
-> 각오 한마디
+> 화이팅
 
 <div align="center">
+  
+<img src="/assets/profile.png" width="128px" height="128px" style="border-radius:50%">
 
-<h3> 이름 </h3>
-<p>직군 @회사</p>
+<h3> NoMoreBuild </h3>
+<p>Front-end Engineer @스타트업</p>
 
-![Status](https://img.shields.io/badge/MunziYa-blue.svg)
-![Start Date](https://img.shields.io/badge/Start%20Date-2021--03--01-23d16b.svg)
+![Status](https://img.shields.io/badge/MunziYa-gray.svg)
+![Start Date](https://img.shields.io/badge/Start%20Date-2021--05--14-23d16b.svg)
 
 
 </div>
@@ -24,6 +26,6 @@
 
 <div align="center">
 
-<sub><sup>Written by <a href="https://github.com/chobobdev">@chobobdev</a></sup></sub><small>🍕</small>
+<sub><sup>Written by <a href="https://github.com/nomorebuild">@NoMoreBuild</a></sup></sub><small>💥</small>
 
 </div>
