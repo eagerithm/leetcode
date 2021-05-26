@@ -60,7 +60,7 @@ const extraCandies3 = 10;
 // Memory Usage: 39.1 MB, less than 21.80% of JavaScript online submissions for Kids With the Greatest Number of Candies.
 
 var kidsWithCandies1 = function (candies, extraCandies) {
-  return candies.map((v) => v + extraCandies >= Math.max(...candies));
+  return candies.map((candy) => candy + extraCandies >= Math.max(...candies));
 };
 
 console.log(kidsWithCandies1(candies1, extraCandies1));
