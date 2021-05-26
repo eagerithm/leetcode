@@ -75,10 +75,3 @@ var twoSum2 = function (nums, target) {
 console.log(twoSum2(nums1, target1));
 console.log(twoSum2(nums2, target2));
 console.log(twoSum2(nums3, target3));
-
-const dic = {
-  name: "liha",
-  age: 13,
-};
-
-console.log(dic["age"]);
