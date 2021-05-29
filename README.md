@@ -19,15 +19,16 @@
 
 ## 🖐 Attendees
 
-|     Name     |                    Github Profile                    |  Language  |           Solved Problem           |
-| :----------: | :--------------------------------------------------: | :--------: | :--------------------------------: |
-|   Liha Kim   |   [bravacoreana](https://github.com/bravacoreana)    | JavaScript |  [:link:](bravacoreana/README.md)  |
-|    Bernie Cho    |      [chobobdev](https://github.com/chobobdev)       |     Go     |   [:link:](chobobdev/README.md)    |
-|    이우림    |    [NoMoreBuild](https://github.com/NoMoreBuild)     | JavaScript |  [:link:](nomorebuild/README.md)   |
-|     헨리     |     [vanillaLatteJS](https://github.com/devgony)     | JavaScript | [:link:](vanillaLatteJS/README.md) |
-|    김우리    |      [woori3104](https://github.com/woori3104)       |     C#     |   [:link:](woori3104/README.md)    |
-|    정성훈    | [JeongSeongHun](https://github.com/JeongSeongHun054) | JavaScript | [:link:](JeongSeongHun/README.md)  |
-| Sangseok Doe |      [doeveloper](https://github.com/ldss3sang)      |     C#     |   [:link:](doeveloper/README.md)   |
+|     Name      |                    Github Profile                    |  Language  |           Solved Problem           |
+| :-----------: | :--------------------------------------------------: | :--------: | :--------------------------------: |
+|   Liha Kim    |   [bravacoreana](https://github.com/bravacoreana)    | JavaScript |  [:link:](bravacoreana/README.md)  |
+|  Bernie Cho   |      [chobobdev](https://github.com/chobobdev)       |     Go     |   [:link:](chobobdev/README.md)    |
+|    이우림     |    [NoMoreBuild](https://github.com/NoMoreBuild)     | JavaScript |  [:link:](nomorebuild/README.md)   |
+|     헨리      |     [vanillaLatteJS](https://github.com/devgony)     | JavaScript | [:link:](vanillaLatteJS/README.md) |
+|    김우리     |      [woori3104](https://github.com/woori3104)       |     C#     |   [:link:](woori3104/README.md)    |
+|    정성훈     | [JeongSeongHun](https://github.com/JeongSeongHun054) | JavaScript | [:link:](JeongSeongHun/README.md)  |
+| Sangseok Doe  |      [doeveloper](https://github.com/ldss3sang)      |     C#     |   [:link:](doeveloper/README.md)   |
+| Jeong Satchel |    [bugoverdose](https://github.com/bugoverdose)     |   Python   |  [:link:](bugoverdose/README.md)   |
 
 <div align="center">
 
