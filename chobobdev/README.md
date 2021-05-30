@@ -24,6 +24,8 @@ Go lang을 활용해 많은 알고리즘 해결
 | 2 | 2021-05-23 | 58 . Length of the last word | Go |[:link:](58/solution.go)|
 | 3 | 2021-05-24 | 7. Reverse Integer | Go |[:link:](7/solution.go)|
 | 4 | 2021-05-24 | 7. Reverse Integer | Js |[:link:](7/solution.js)|
+| 5 | 2021-05-20 | 26.Remove Duplicates from Sorted Array| Go |[:link:](26/solution.go) |
+| 6 | 2021-05-29 | 9. Palindrome Number | Go | [:link:](9/solution.go) |
 
 
 <div align="center">
