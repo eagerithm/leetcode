@@ -1,6 +1,39 @@
 from typing import List
 
+# 56 ms
 class Solution:
+    def twoSum(_, nums: List[int], target: int) -> List[int]:
+        dict = { nums[0]: 0 }
+        i = 1
+        while i >= 1:             
+            if dict.keys().__contains__(target - nums[i]): 
+                return [nums.index(target - nums[i]), i]
+            else:
+                dict[nums[i]] = i
+                i += 1
+                
+# 60 ms
+class PrevSolution3:
+    def twoSum(_, nums: List[int], target: int) -> List[int]:
+        dict = {}
+        for i in range(len(nums)):             
+            if dict.keys().__contains__(target - nums[i]): 
+                return [nums.index(target - nums[i]), i]
+            else:
+                dict[nums[i]] = i
+
+# 1020 ms
+class PrevSolution2:
+    def twoSum(_, nums: List[int], target: int) -> List[int]:
+        dict = {}
+        for i in range(len(nums)):             
+            if list(dict.values()).__contains__(target - nums[i]): 
+                return [nums.index(target - nums[i]), i]
+            else:
+                dict[i] = nums[i]
+
+# 4872 ms
+class PrevSolution1:
     def twoSum(_, nums: List[int], target: int) -> List[int]:
         for i in range(len(nums)):
             for j in range(len(nums)):
@@ -8,7 +41,6 @@ class Solution:
                     break
                 elif nums[i] + nums[j] == target:
                     return [j, i]
-
 """
 1. Two Sum
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
@@ -37,9 +69,9 @@ Only one valid answer exists.
 Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 """
 
-# Testcase
-list = [2, 7, 11, 15] 
-target = 9
+# Testcase 
 
 s = Solution()
-print(s.twoSum(list, target)) # [0, 1]
+print(s.twoSum([2, 7, 11, 15] , 9)) # [0, 1]
+print(s.twoSum([3, 2, 4], 6)) # [1, 2]
+print(s.twoSum([3, 3], 6)) # [0, 1]

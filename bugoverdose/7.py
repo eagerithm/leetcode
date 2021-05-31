@@ -1,6 +1,6 @@
 class Solution:
     def reverse(_, x: int) -> int:
-        plus_minus: int = 1 if x > 0 else -1    
+        plus_minus: int = 1 if x >= 0 else -1    
         reversed: int = plus_minus * int(str(abs(x))[::-1])
         if reversed < -2**31 or reversed > 2**31 - 1:
             return 0
