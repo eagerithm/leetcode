@@ -7,7 +7,7 @@
 const twoSum = (nums, target) => {
   const storage = {};
 
-  for (let i = 0; i < nums.length; i += 1) {
+  for (let i = 0; i < nums.length; i++) {
     if (storage[nums[i]] !== undefined) {
       return [storage[nums[i]], i];
     }
