@@ -39,25 +39,53 @@ namespace LeetCode.Easy
          **   - `0 <= n <= 5 * 106`
           */
 
-        // Way1 : Time Limit
+        /*        // Way1 : Time Limit
+                public int CountPrimes(int n)
+                {
+                    if (n < 3) return 0;
+                    List<int> primes = new List<int>();
+                    primes.Add(2);
+                    for (var i = 2; i < n; i++)
+                    {
+                        for (var j = 0; j < primes.Count; j++)
+                        {
+                            if (i % primes[j] == 0)
+                                break;
+                            if (j + 1 % primes[j] == primes.Count)
+                            {
+                                primes.Add(i);
+                            }
+                        }
+                    }
+                    return primes.Count;
+                }*/
+
+        // way2
+        // Runtime: 104 ms, faster than 36.42% of C# online submissions for Count Primes.
+        // Memory Usage: 22.5 MB, less than 59.07% of C# online submissions for Count Primes.
         public int CountPrimes(int n)
         {
             if (n < 3) return 0;
-            List<int> primes = new List<int>();
-            primes.Add(2);
-            for (var i = 2; i < n; i++)
+            bool[] nums = new bool[n];
+            for (int i = 2; i < n; i++)
+                nums[i] = true;
+
+            for (int i = 2; i < Math.Sqrt(n); i++)
             {
-                for (var j = 0; j < primes.Count; j++)
+                if (!nums[i])
+                    continue;
+                for (int j = i * 2; j < n; j += i)
                 {
-                    if (i % primes[j] == 0)
-                        break;
-                    if (j + 1 % primes[j] == primes.Count)
-                    {
-                        primes.Add(i);
-                    }
+                    nums[j] = false;
                 }
             }
-            return primes.Count;
+            var res = 0;
+            for (int i = 1; i < n; i++)
+            {
+                if (nums[i])
+                    res++;
+            }
+            return res;
         }
     }
 }
