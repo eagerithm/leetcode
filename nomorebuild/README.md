@@ -21,7 +21,8 @@
 |  #  | 시도 날짜  |              문제 이름              |           링크           |
 | :-: | :--------: | :---------------------------------: | :----------------------: |
 |  1  | 2021-05-24 |               Two Sum               | [:link:](problems/1.js)  |
-|  2  | 2021-05-25 | Remove Duplicates from Sorted Array | [:link:](problems/26.js) |
+| 26  | 2021-05-25 | Remove Duplicates from Sorted Array | [:link:](problems/26.js) |
+| 28  | 2021-05-31 |         Implement strStr()          | [:link:](problems/28.js) |
 
 <div align="center">
 
