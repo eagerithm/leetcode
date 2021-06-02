@@ -15,7 +15,7 @@
 - 파이썬 재활 훈련
 - 두뇌 운동
 
-## 목록 (easy 15 | medium 2 | hard -)
+## 목록 (easy 15 | medium 3 | hard -)
 
 |  #  |    Date    |                     Title                      | Difficulty |       Link        |
 | :-: | :--------: | :--------------------------------------------: | :--------: | :---------------: |
@@ -24,7 +24,9 @@
 |  5  | 2021-06-02 |         Longest Palindromic Substring          |   medium   |       보류        |
 |  6  | 2021-06-02 |               ZigZag Conversion                |   medium   | [:link:](./6.py)  |
 |  7  | 2021-05-29 |                Reverse Integer                 |    easy    | [:link:](./7.py)  |
+|  8  | 2021-06-02 |            String to Integer (atoi)            |   medium   | [:link:](./8.py)  |
 |  9  | 2021-05-29 |               Palindrome Number                |    easy    | [:link:](./9.py)  |
+| 11  | 2021-05-29 |           Container With Most Water            |   medium   | [:link:](./11.py) |
 | 13  | 2021-05-29 |                Roman to Integer                |    easy    | [:link:](./13.py) |
 | 14  | 2021-05-29 |             Longest Common Prefix              |    easy    | [:link:](./14.py) |
 | 20  | 2021-05-29 |               Valid Parentheses                |    easy    | [:link:](./20.py) |
