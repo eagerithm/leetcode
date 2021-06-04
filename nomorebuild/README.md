@@ -18,11 +18,12 @@
 
 ## 코드 목록
 
-|  #  | 시도 날짜  |              문제 이름              |           링크           |
-| :-: | :--------: | :---------------------------------: | :----------------------: |
-|  1  | 2021-05-24 |               Two Sum               | [:link:](problems/1.js)  |
-| 26  | 2021-05-25 | Remove Duplicates from Sorted Array | [:link:](problems/26.js) |
-| 28  | 2021-05-31 |         Implement strStr()          | [:link:](problems/28.js) |
+|  #   | 시도 날짜  |              문제 이름              |            링크            |
+| :--: | :--------: | :---------------------------------: | :------------------------: |
+|  1   | 2021-05-24 |               Two Sum               |  [:link:](problems/1.js)   |
+|  26  | 2021-05-25 | Remove Duplicates from Sorted Array |  [:link:](problems/26.js)  |
+|  28  | 2021-05-31 |         Implement strStr()          |  [:link:](problems/28.js)  |
+| 1672 | 2021-06-01 |       Richest Customer Wealth       | [:link:](problems/1672.js) |
 
 <div align="center">
 
