@@ -20,13 +20,13 @@ Leetcode의 알고리즘 문제를 가능하면 Sexy(?)하게 풀어보기
 
 ## 코드 목록
 
-|  #   | 시도 날짜  |              문제 이름              |            링크            |
-| :--: | :--------: | :---------------------------------: | :------------------------: |
-|  1   | 2021-05-24 |               Two Sum               |  [:link:](problems/1.js)   |
-|  26  | 2021-05-25 | Remove Duplicates from Sorted Array |  [:link:](problems/26.js)  |
-|  28  | 2021-05-31 |         Implement strStr()          |  [:link:](problems/28.js)  |
-| 136  | 2021-06-04 |            Single Number            | [:link:](problems/136.js)  |
-| 1672 | 2021-06-01 |       Richest Customer Wealth       | [:link:](problems/1672.js) |
+|  #   | 시도 날짜  |              문제 이름              |                      난이도                       |            링크            |
+| :--: | :--------: | :---------------------------------: | :-----------------------------------------------: | :------------------------: |
+|  1   | 2021-05-24 |               Two Sum               | ![Easy](https://img.shields.io/badge/-Easy-green) |  [:link:](problems/1.js)   |
+|  26  | 2021-05-25 | Remove Duplicates from Sorted Array | ![Easy](https://img.shields.io/badge/-Easy-green) |  [:link:](problems/26.js)  |
+|  28  | 2021-05-31 |         Implement strStr()          | ![Easy](https://img.shields.io/badge/-Easy-green) |  [:link:](problems/28.js)  |
+| 136  | 2021-06-04 |            Single Number            | ![Easy](https://img.shields.io/badge/-Easy-green) | [:link:](problems/136.js)  |
+| 1672 | 2021-06-01 |       Richest Customer Wealth       | ![Easy](https://img.shields.io/badge/-Easy-green) | [:link:](problems/1672.js) |
 
 <div align="center">
 
