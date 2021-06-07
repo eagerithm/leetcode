@@ -33,5 +33,76 @@ Output: [true,false,true]
 1 <= candies[i] <= 100
 1 <= extraCandies <= 50
 
-
 */
+
+// ========== START FROM HERE : ========== //
+
+/**
+ * @param {number[]} candies
+ * @param {number} extraCandies
+ * @return {boolean[]}
+ */
+/*
+var kidsWithCandies = function (candies, extraCandies) {};
+*/
+
+const candies1 = [2, 3, 5, 1, 3];
+const extraCandies1 = 3;
+const candies2 = [4, 2, 1, 1, 2];
+const extraCandies2 = 1;
+const candies3 = [12, 1, 12];
+const extraCandies3 = 10;
+
+// ========== START FROM HERE : ========== //
+
+// * way 1
+// Runtime: 80 ms, faster than 66.15% of JavaScript online submissions for Kids With the Greatest Number of Candies.
+// Memory Usage: 39.1 MB, less than 21.80% of JavaScript online submissions for Kids With the Greatest Number of Candies.
+
+var kidsWithCandies1 = function (candies, extraCandies) {
+  return candies.map((candy) => candy + extraCandies >= Math.max(...candies));
+};
+
+console.log(kidsWithCandies1(candies1, extraCandies1));
+console.log(kidsWithCandies1(candies2, extraCandies2));
+console.log(kidsWithCandies1(candies3, extraCandies3));
+
+// ====================================== //
+
+// * way 2
+// Runtime: 84 ms, faster than 34.53% of JavaScript online submissions for Kids With the Greatest Number of Candies.
+// Memory Usage: 39.4 MB, less than 7.91% of JavaScript online submissions for Kids With the Greatest Number of Candies.
+
+var kidsWithCandies2 = function (candies, extraCandies) {
+  let newArr = [];
+  candies.map((candy) =>
+    newArr.push(Boolean(candy + extraCandies >= Math.max.apply(null, candies)))
+  );
+  return newArr;
+};
+
+console.log(kidsWithCandies2(candies1, extraCandies1));
+console.log(kidsWithCandies2(candies2, extraCandies2));
+console.log(kidsWithCandies2(candies3, extraCandies3));
+
+// ====================================== //
+
+// * way 3
+// Runtime: 88 ms, faster than 13.28% of JavaScript online submissions for Kids With the Greatest Number of Candies.
+// Memory Usage: 39.4 MB, less than 7.91% of JavaScript online submissions for Kids With the Greatest Number of Candies.
+
+var kidsWithCandies3 = function (candies, extraCandies) {
+  let newArr = [];
+  candies.map((candy) => {
+    candy + extraCandies >= Math.max(...candies)
+      ? newArr.push(true)
+      : newArr.push(false);
+  });
+  return newArr;
+};
+
+console.log(kidsWithCandies3(candies1, extraCandies1));
+console.log(kidsWithCandies3(candies2, extraCandies2));
+console.log(kidsWithCandies3(candies3, extraCandies3));
+
+// ====================================== //

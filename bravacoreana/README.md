@@ -17,11 +17,12 @@
 
 ## 🔑 answer
 
-|  #   |    Date    |          Title          | Difficulty |        Link         |
-| :--: | :--------: | :---------------------: | :--------: | :-----------------: |
-| 334  | 2021-05-14 |     reverse string      |    easy    | [:link:](./334.js)  |
-| 1480 | 2021-05-14 | running sum of 1d array |    easy    | [:link:](./1480.js) |
-| 1108 | 2021-05-20 | Defanging an IP Address |    easy    | [:link:](./1108.js) |
+|  #   |    Date    |                  Title                   | Difficulty |        Link         |
+| :--: | :--------: | :--------------------------------------: | :--------: | :-----------------: |
+| 334  | 2021-05-14 |              reverse string              |    easy    | [:link:](./334.js)  |
+| 1480 | 2021-05-14 |         running sum of 1d array          |    easy    | [:link:](./1480.js) |
+| 1108 | 2021-05-20 |         Defanging an IP Address          |    easy    | [:link:](./1108.js) |
+| 1431 | 2021-05-26 | Kids With the Greatest Number of Candies |    easy    | [:link:](./1431.js) |
 
 <div align="center">
 

@@ -1,0 +1,4 @@
+﻿자료구조,추가,검색,삭제,인덱스로 접근
+List<T>,O(1),O(n),O(n),O(1)
+"Dictionary<K,T>",O(1),O(1),O(1),
+LinkedList<T>,O(1),O(n),O(n),O(n)
