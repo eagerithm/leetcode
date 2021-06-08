@@ -20,7 +20,7 @@ var singleNumber = function (nums) {
   }
 
   // HashMap에서 Object.keys를 통해 index값을 뽑아낸 뒤 forEach로 반복
-  Object.keys(hashMap).some((element) => {
+  Object.keys(hashMap).forEach((element) => {
     // 중복되지 않는 수를 판별하기 위해 1이하 숫자를 조건문으로 걸러내고 singleValue 변수 지정
     if (hashMap[element].length <= 1) {
       singleValue = element;
