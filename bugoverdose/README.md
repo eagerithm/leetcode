@@ -13,9 +13,11 @@
 ## 🔥 목표
 
 - 파이썬 재활 훈련
-- 두뇌 운동
+- SQL문 연습
 
-## 목록 (easy 15 | medium 3 | hard -)
+<br />
+
+## 알고리즘 풀이 목록 (easy 15 | medium 3 | hard -)
 
 |  #  |    Date    |                     Title                      | Difficulty |       Link        |
 | :-: | :--------: | :--------------------------------------------: | :--------: | :---------------: |
@@ -40,6 +42,17 @@
 | 66  | 2021-06-01 |                    Plus One                    |    easy    | [:link:](./66.py) |
 | 67  | 2021-06-01 |                   Add Binary                   |    easy    | [:link:](./67.py) |
 | 69  | 2021-06-01 |                    Sqrt(x)                     |    easy    | [:link:](./69.py) |
+
+<br />
+
+## 데이터베이스 풀이 목록 (easy 3 | medium 1 | hard -)
+
+|  #  |    Date    |         Title         | Difficulty |        Link         |
+| :-: | :--------: | :-------------------: | :--------: | :-----------------: |
+| 175 | 2021-06-06 |  Combine Two Tables   |    easy    | [:link:](./175.sql) |
+| 176 | 2021-06-06 | Second Highest Salary |    easy    | [:link:](./176.sql) |
+| 177 | 2021-06-06 |  Nth Highest Salary   |   medium   | [:link:](./177.sql) |
+| 595 | 2021-06-06 |     Big Countries     |    easy    | [:link:](./595.sql) |
 
 <div align="center">
 
