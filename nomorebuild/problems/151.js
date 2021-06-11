@@ -10,11 +10,7 @@ const reverseWords = (s) => {
 
   // s가 쪼개진 만큼 반복
   for (let i = 0; i < splittedWords.length; i++) {
-    // 문자열이 공백일 경우 생략
-    if (splittedWords[splittedWords.length - (i + 1)] === "") {
-      continue;
-    } else {
-      // 문자열 위치 반전
+    if (splittedWords[splittedWords.length - (i + 1)] !== "") {
       result.push(splittedWords[splittedWords.length - (i + 1)]);
     }
   }
