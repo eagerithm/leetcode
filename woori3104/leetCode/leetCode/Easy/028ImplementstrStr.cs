@@ -50,7 +50,7 @@ namespace LeetCode.Easy
          ** Memory Usage: 22.9 MB, less than 91.72% of C# online submissions for Implement strStr().
          */
 
-        public int StrStr(string haystack, string needle)
+        /* public int StrStr(string haystack, string needle)
         {
             if (needle.Length < 1)
                 return 0;
@@ -65,6 +65,27 @@ namespace LeetCode.Easy
                     if (j == needle.Length - 1)
                         return i;
                 }
+            }
+            return -1;
+        }
+        */
+
+        // way 3
+        /** 
+         * Runtime: 1084 ms, faster than 17.10% of C# online submissions for Implement strStr().
+         *Memory Usage: 40.4 MB, less than 5.06% of C# online submissions for Implement strStr().
+         **/
+        public int StrStr(string haystack, string needle)
+        {
+            if (needle.Length < 1)
+                return 0;
+
+            for (int i = 0; i < haystack.Length - needle.Length + 1; i++)
+            {
+                var subHaystack = haystack.Substring(i, needle.Length);
+
+                if (subHaystack == needle)
+                    return i;
             }
             return -1;
         }
