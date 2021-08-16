@@ -28,8 +28,11 @@
 |  013   | 2021-05-16 | #013 Roman to Integer| [:link:](leetCode/leetCode/Easy/013RomantoInteger.cs)) |
 |  014   | 2021-05-17 | #014 LongestCommonPrefix| [:link:](leetCode/leetCode/Easy/014LongestCommonPrefix.cs)) |
 |  020   | 2021-05-17 | #020 Valid Parentheses| [:link:](cleetCode/leetCode/Easy/020ValidParentheses.cs)) |
-|  344   | 2021-05-17 | #344 344 Reverse String | [:link:](leetCode/leetCode/Easy/344ReverseString.cs)) |
+|  344   | 2021-05-17 | #344 344 Reverse String| [:link:](leetCode/leetCode/Easy/344ReverseString.cs)) |
+|  028  | 2021-05-14 | #028 ImplementstrStr | [:link:](leetCode/leetCode/Easy/028ImplementstrStr.cs)) |
+|  012  | 2021-07-30 | #012 LengthOfLastWordClass| [:link:](leetCode/leetCode/Easy/012LengthOfLastWord.cs)) |
 |  069   | 2021-05-17 | #069 069 MySqrtClass | [:link:](leetCode/leetCode/Easy/069MySqrtClass.cs)) |
+
 
 <div align="center">
 
