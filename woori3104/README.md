@@ -32,6 +32,7 @@
 |  028  | 2021-05-14 | #028 ImplementstrStr | [:link:](leetCode/leetCode/Easy/028ImplementstrStr.cs)) |
 |  012  | 2021-07-30 | #012 LengthOfLastWordClass| [:link:](leetCode/leetCode/Easy/012LengthOfLastWord.cs)) |
 |  069   | 2021-05-17 | #069 069 MySqrtClass | [:link:](leetCode/leetCode/Easy/069MySqrtClass.cs)) |
+|  066   | 2021-08-01 | #066 66 Plus One | [:link:](woori3104/leetCode/LeetCodeTests/Easy/066PlusOneTests.cs)) |
 
 
 <div align="center">
